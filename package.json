@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "ts-node src/index.ts",
-        "start:dev": "ts-node-dev src/bot.ts",
+        "start": "npm run start:prod", // Adjusted to use start:prod
+        "start:dev": "ts-node-dev src/index.ts",
         "start:prod": "tsc && node dist/index.js",
         "build": "tsc",
         "lint": "gts lint",
@@ -15,7 +15,7 @@
         "seed": "ts-node prisma/seed.ts"
     },
     "engines": {
-        "node": ">=14.0.0",
+        "node": ">=14.0.0"
     },
     "keywords": [],
     "author": "",
@@ -42,7 +42,6 @@
         "dotenv": "^16.0.3",
         "eslint": "^8.28.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "gts": "^3.1.1",
         "prettier": "2.7.1",
         "prisma": "^4.7.1",
         "ts-node": "^10.9.1",
