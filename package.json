@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "ts-node src/index.ts",
-        "start:dev": "ts-node-dev src/bot.ts",
+        "start:dev": "ts-node-dev src/index.ts",  // Corrected to use "index.ts"
         "start:prod": "tsc && node dist/index.js",
         "build": "tsc",
         "lint": "gts lint",
