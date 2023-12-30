@@ -15,7 +15,7 @@
         "seed": "ts-node prisma/seed.ts"
     },
     "engines": {
-        "node": ">=14.0.0"  // Specify the minimum Node.js version required
+        "node": ">=14.0.0",
     },
     "keywords": [],
     "author": "",
