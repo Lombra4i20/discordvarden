@@ -14,6 +14,9 @@
         "fix": "gts fix",
         "seed": "ts-node prisma/seed.ts"
     },
+    "engines": {
+        "node": ">=14.0.0"  // Specify the minimum Node.js version required
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
