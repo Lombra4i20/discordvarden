@@ -15,8 +15,8 @@
         "seed": "ts-node prisma/seed.ts"
     },
     "engines": {
-        "node": ">=14.0.0"
-    },
+    "node": ">=14.0.0"
+},
     "keywords": [],
     "author": "",
     "license": "ISC",
